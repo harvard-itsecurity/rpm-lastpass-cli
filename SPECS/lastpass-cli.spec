@@ -1,7 +1,7 @@
 %global __requires_exclude_from ^%{_docdir}/.*$
 
 Name:           lastpass-cli
-Version:        1.3.0
+Version:        1.3.1
 Release:        1%{?dist}
 Summary:        Command line interface to LastPass (Free, Premium, and Enterprise)
 
@@ -57,6 +57,11 @@ install -Dpm 644 contrib/lpass_bash_completion %{buildroot}$bashcompdir/lpass
 
 
 %changelog
+* Tue Jun 19 2018 Ventz Petkov - 1.3.1-1
+- Updated package to latest 1.3.1
+- Includes fixes (see release notes):
+-- https://github.com/lastpass/lastpass-cli/releases/tag/v1.3.1
+
 * Fri Apr 13 2018 Ventz Petkov - 1.3.0-1
 - Taking over LastPass-CLI EPEL package
 - Updated package to latest 1.3.0

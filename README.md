@@ -1,4 +1,4 @@
-# Container to build EPEL RPM of LastPass CLI
+# Container to build EPEL RPM of latest LastPass CLI
 
 We have created a small docker container in order to make building the RPM super easy:
 
